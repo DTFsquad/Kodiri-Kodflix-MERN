@@ -1,24 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
+import theMistCover from './the-mist.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <h1>Welcome to Kodflix!!!</h1>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src={theMistCover} className='image-cover' alt='theMistCover' />
     </div>
   );
 }
