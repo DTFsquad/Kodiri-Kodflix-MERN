@@ -7,7 +7,7 @@
   justify-content: space-around;
 }
 
-.image-cover-row-item {
+.image-cover-row {
   flex: 1;
   flex-basis: 100%;
   position: relative;
